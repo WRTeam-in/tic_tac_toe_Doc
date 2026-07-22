@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#e2e8f0"/>
+  <rect x="1" y="1" width="798" height="498" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="10 8"/>
+  <g fill="none" stroke="#94a3b8" stroke-width="3">
+    <path d="M300 180 L500 180 L500 320 L300 320 Z"/>
+    <circle cx="345" cy="225" r="18"/>
+    <path d="M300 300 L370 250 L430 290 L500 220"/>
+  </g>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">Image Placeholder</text>
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle">Replace with real screenshot / artwork</text>
+</svg>

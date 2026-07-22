@@ -1,0 +1,48 @@
+/**
+ * Global CSS for Docusaurus site.
+ * Infima variables customized with the Tic Tac Toe color palette.
+ */
+
+:root {
+  --ifm-color-primary: #5b4fe0;
+  --ifm-color-primary-dark: #4638db;
+  --ifm-color-primary-darker: #3d2fd9;
+  --ifm-color-primary-darkest: #3226b3;
+  --ifm-color-primary-light: #7066e5;
+  --ifm-color-primary-lighter: #7972e7;
+  --ifm-color-primary-lightest: #9a93ee;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #9a93ee;
+  --ifm-color-primary-dark: #8078ea;
+  --ifm-color-primary-darker: #726ae8;
+  --ifm-color-primary-darkest: #4638db;
+  --ifm-color-primary-light: #b4aef2;
+  --ifm-color-primary-lighter: #c2bdf4;
+  --ifm-color-primary-lightest: #ebe9fb;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Make YouTube / video embeds responsive */
+.container-iframe {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
