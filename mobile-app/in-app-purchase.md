@@ -30,4 +30,36 @@ For more info: [Play Console help](https://support.google.com/googleplay/android
 
 ## iOS
 
-See Apple's [In-App Purchase guide](https://developer.apple.com/in-app-purchase/).
+1. Log in to [App Store Connect](https://appstoreconnect.apple.com/) → your app → **Features → In-App Purchases**.
+2. Click **+**, select **Consumable** as the type (coin packs are consumable — purchasable repeatedly), and fill in:
+   - **Reference Name**
+   - **Product ID** — must exactly match the `id` you used in `ShopItem.dummy` / `AdConfig.coinProductIds`.
+   - **Pricing**
+
+See Apple's [In-App Purchase guide](https://developer.apple.com/in-app-purchase/) for full details.
+
+:::important
+Enable paid app agreements in your Apple Developer account, or in-app purchases won't work:
+
+1. Log in to your Apple Developer account.
+2. Go to **Agreements, Tax, and Banking**.
+3. Accept the **Paid Applications Agreement**.
+4. Complete the banking and tax information.
+5. Wait for Apple's approval (can take a few days).
+:::
+
+## Testing
+
+Before releasing to production:
+
+1. Create a sandbox tester account in App Store Connect (**Users and Access → Sandbox → Testers**).
+2. Sign out of your regular Apple ID on the test device and sign in with the sandbox account when prompted during purchase.
+3. Test the complete purchase flow end to end.
+4. Verify the coin balance updates correctly after purchase.
+
+## Troubleshooting
+
+- **Purchases aren't working** — verify the Product ID matches exactly across App Store Connect / Play Console, `ShopItem.dummy`, and `AdConfig.coinProductIds`.
+- **iOS bundle identifier mismatch** — confirm it matches the one registered in App Store Connect (see [Change Package Name](app-branding/change-package-name.md)).
+- **Provisioning profile** — make sure it includes the In-App Purchase capability.
+- **Products not loading** — double-check the Paid Applications Agreement (iOS) is signed and approved, or that the Android app has been published to at least internal/closed testing (products don't show up otherwise).
