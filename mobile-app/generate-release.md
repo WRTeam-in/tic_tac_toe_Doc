@@ -1,8 +1,8 @@
 ---
-sidebar_position: 25
+sidebar_position: 22
 ---
 
-# How to generate a release APK / App Bundle
+# How to Generate a Release APK / App Bundle
 
 ## 1. Create an upload keystore
 

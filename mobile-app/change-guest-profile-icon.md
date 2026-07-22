@@ -1,8 +1,8 @@
 ---
-sidebar_position: 13
+sidebar_position: 10
 ---
 
-# How to change the guest profile icon
+# How to Change the Guest Profile Icon
 
 Go to `lib/Helper/Constants.dart` and change the value as shown below.
 

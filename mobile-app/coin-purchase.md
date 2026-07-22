@@ -1,8 +1,8 @@
 ---
-sidebar_position: 20
+sidebar_position: 17
 ---
 
-# How to change coin purchase values / add more coins to purchase
+# How to Change Coin Purchase Values / Add More Coins to Purchase
 
 1. To change the icon/image, price, and name of coin items, edit `lib/Helper/String.dart` as shown below (do not change the variable names).
 

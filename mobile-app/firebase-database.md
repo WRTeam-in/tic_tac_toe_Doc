@@ -1,8 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 5
 ---
 
-# How to enable the Firebase Database
+# How to Enable the Firebase Database
 
 This app uses the **Realtime Database** to sync live game data (moves, turns, room state) between players with minimal latency.
 

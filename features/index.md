@@ -14,8 +14,7 @@ import DocBanner from '@site/src/components/DocBanner/DocBanner';
 
 **Tic Tac Toe – Complete Multiplayer Flutter Game Solution.** Launch your own fully branded Tic Tac Toe game with online multiplayer, AI gameplay, local multiplayer, in-app purchases, rewarded monetization, and Firebase-powered real-time matchmaking — all from a single Flutter codebase.
 
-<!-- TODO: replace with real hero banner / gameplay collage screenshot -->
-![Hero banner placeholder](../static/images/placeholder.svg)
+![Tic Tac Toe](../static/images/logo/app_logo.png)
 
 **Platforms:** Android · iOS · Flutter · Firebase
 **Technologies:** Flutter • Firebase • AdMob • Unity Ads • Google Play Billing • Apple In-App Purchases

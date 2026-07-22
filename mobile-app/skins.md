@@ -1,8 +1,8 @@
 ---
-sidebar_position: 21
+sidebar_position: 18
 ---
 
-# How to change skins icon and price, or add more skins
+# How to Change Skins Icon and Price, or Add More Skins
 
 1. To change skin icons and prices, or add more skins, go to `lib/Helper/String.dart` and edit the values shown below (do not change the variable names).
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 18
+sidebar_position: 15
 ---
 
-# How to change music
+# How to Change Music
 
 1. Add your music file under the `assets/music` folder.
 

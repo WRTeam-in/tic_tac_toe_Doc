@@ -1,8 +1,8 @@
 ---
-sidebar_position: 9
+sidebar_position: 6
 ---
 
-# How to enable Firebase Storage
+# How to Enable Firebase Storage
 
 1. Open your Firebase project → **Build → Storage → Get started**, and press **Next** through the setup dialog. A storage bucket is created automatically — this is where user profile images will be stored.
 

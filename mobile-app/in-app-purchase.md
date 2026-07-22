@@ -1,8 +1,8 @@
 ---
-sidebar_position: 24
+sidebar_position: 21
 ---
 
-# How to register for In-App Purchase
+# How to Register for In-App Purchase
 
 ## To create an in-app product (Android / Google Play)
 

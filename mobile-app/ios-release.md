@@ -1,8 +1,8 @@
 ---
-sidebar_position: 26
+sidebar_position: 23
 ---
 
-# Steps to publish the iOS app to the App Store
+# Steps to Publish the iOS App to the App Store
 
 1. Open your project's `Runner.xcworkspace` in Xcode. Add your Team (your Apple Developer ID), and make sure `GoogleService-Info.plist` (downloaded from your Firebase project) is inside the `Runner` folder.
 

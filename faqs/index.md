@@ -28,7 +28,7 @@ Online multiplayer relies on the Firebase Realtime Database, so you'll need the 
 
 ## Google Sign-In fails with an ApiException
 
-This is almost always a missing SHA-1 fingerprint or an unconfigured OAuth consent screen. See [Firebase Authentication](/mobile-app/firebase-auth) for the exact steps.
+This is almost always a missing SHA-1 fingerprint or an unconfigured OAuth consent screen. See [Firebase Setup](/mobile-app/integrate-firebase) for the exact steps.
 
 ## Do I need to run a backend server?
 
@@ -39,7 +39,7 @@ No. Tic Tac Toe does not require a dedicated backend server or hosting environme
 To ensure optimal performance of the Tic Tac Toe app, follow the compatibility guidelines below:
 
 ### Flutter App Compatibility
-- **Flutter Version**: latest stable channel (see [Setup Flutter](/mobile-app/setup-flutter))
+- **Flutter Version**: latest stable channel (see the [Flutter Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/basicsetup/))
 
 ### Backend / Services
 - **Firebase Plan**: Blaze (Pay-as-you-go)

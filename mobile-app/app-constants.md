@@ -1,8 +1,8 @@
 ---
-sidebar_position: 23
+sidebar_position: 20
 ---
 
-# How to change application constants
+# How to Change Application Constants
 
 1. To change the player timer duration, the number of rounds, or round values, go to `lib/Helper/Constants.dart` and update the values shown below.
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 16
+sidebar_position: 13
 ---
 
-# How to change ad type and ad IDs
+# How to Change Ad Type and Ad IDs
 
 1. Select your ad type first.
 

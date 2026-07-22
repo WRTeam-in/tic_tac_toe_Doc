@@ -1,8 +1,8 @@
 ---
-sidebar_position: 22
+sidebar_position: 19
 ---
 
-# How to add/remove a language
+# How to Add/Remove a Language
 
 ## To add a new language
 

@@ -1,31 +1,55 @@
 /**
  * Global CSS for Docusaurus site.
- * Infima variables customized with the Tic Tac Toe color palette.
+ * Infima variables customized with the app's real brand palette
+ * (from lib/core/theme/colors.dart — AppColors).
  */
 
 :root {
-  --ifm-color-primary: #5b4fe0;
-  --ifm-color-primary-dark: #4638db;
-  --ifm-color-primary-darker: #3d2fd9;
-  --ifm-color-primary-darkest: #3226b3;
-  --ifm-color-primary-light: #7066e5;
-  --ifm-color-primary-lighter: #7972e7;
-  --ifm-color-primary-lightest: #9a93ee;
+  /* AppColors.primaryColor */
+  --ifm-color-primary: #00a0ff;
+  --ifm-color-primary-dark: #0088d9;
+  --ifm-color-primary-darker: #0073b8;
+  --ifm-color-primary-darkest: #005d94;
+  --ifm-color-primary-light: #2eb1ff;
+  --ifm-color-primary-lighter: #52beff;
+  --ifm-color-primary-lightest: #8cd4ff;
+
+  /* AppColors.secondaryColor / tertiaryColor / surfaceColor */
+  --brand-orange: #f0842a;
+  --brand-teal: #00a8ca;
+  --brand-surface: #242424;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #9a93ee;
-  --ifm-color-primary-dark: #8078ea;
-  --ifm-color-primary-darker: #726ae8;
-  --ifm-color-primary-darkest: #4638db;
-  --ifm-color-primary-light: #b4aef2;
-  --ifm-color-primary-lighter: #c2bdf4;
-  --ifm-color-primary-lightest: #ebe9fb;
+  /* Same brand blue reads fine on dark surfaces — no need to invert to white */
+  --ifm-color-primary: #2eb1ff;
+  --ifm-color-primary-dark: #00a0ff;
+  --ifm-color-primary-darker: #0088d9;
+  --ifm-color-primary-darkest: #0073b8;
+  --ifm-color-primary-light: #52beff;
+  --ifm-color-primary-lighter: #8cd4ff;
+  --ifm-color-primary-lightest: #c3e8ff;
 
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --brand-orange: #ff9c4d;
+  --brand-teal: #2ec3e0;
+  --brand-surface: #242424;
+
+  /* Match the app's own dark surface color instead of Infima's default near-black */
+  --ifm-background-color: #242424;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.15);
+}
+
+/* Orange accent for links inside doc content, matching AppColors.secondaryColor */
+.markdown a {
+  color: var(--brand-orange);
+}
+
+.markdown a:hover {
+  color: var(--ifm-color-primary);
 }
 
 /* Make YouTube / video embeds responsive */
@@ -33,7 +57,8 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
 }
 
 .responsive-iframe {

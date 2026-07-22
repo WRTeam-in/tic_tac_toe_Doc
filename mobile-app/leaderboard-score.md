@@ -1,8 +1,8 @@
 ---
-sidebar_position: 19
+sidebar_position: 16
 ---
 
-# How to change leaderboard score calculation values
+# How to Change Leaderboard Score Calculation Values
 
 Go to `lib/Helper/String.dart` and edit the values shown below (do not change the variable names):
 

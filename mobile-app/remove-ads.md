@@ -1,8 +1,8 @@
 ---
-sidebar_position: 17
+sidebar_position: 14
 ---
 
-# How to remove ads
+# How to Remove Ads
 
 If you want to remove ads entirely, make the following changes:
 

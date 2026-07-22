@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Tic Tac Toe Documentation',
   tagline: 'Comprehensive documentation for Tic Tac Toe covering installation, setup, features, and support.',
-  favicon: 'images/logo/logo.svg',
+  favicon: 'images/logo/logo.png',
 
   // Set the production url of your site here
   url: 'https://wrteam-in.github.io', // TODO: update to your GitHub Pages URL
@@ -102,11 +102,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'images/logo/logo.svg',
+      image: 'images/logo/logo.png',
       navbar: {
         logo: {
           alt: 'Tic Tac Toe Logo',
-          src: 'images/logo/logo.svg',
+          src: 'images/logo/logo.png',
         },
         items: [
           {
