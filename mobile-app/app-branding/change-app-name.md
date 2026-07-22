@@ -4,13 +4,15 @@ sidebar_position: 1
 
 # How to Change the Application Name
 
-![App name](../../static/images/app/TTTAppName.png)
+Go to `lib/constants/settings.dart` and change the `appName` value.
+
+![App name](../../static/images/app/appName.png)
 
 ## Android
 
 Go to `android/app/src/main/AndroidManifest.xml` and change the `android:label` value.
 
-![Change app name Android](../../static/images/app/changeAppNAmeAndroid.png)
+![Change app name Android](../../static/images/app/changeAppNameAndroid.png)
 
 ## iOS
 

@@ -39,7 +39,7 @@ No. Tic Tac Toe does not require a dedicated backend server or hosting environme
 To ensure optimal performance of the Tic Tac Toe app, follow the compatibility guidelines below:
 
 ### Flutter App Compatibility
-- **Flutter Version**: latest stable channel (see the [Flutter Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/basicsetup/))
+- **Flutter Version**: 3.44.6 (stable channel) or newer — see [App Prerequisites](/mobile-app/prerequisites) for the full verified toolchain (Android SDK, Xcode, Java)
 
 ### Backend / Services
 - **Firebase Plan**: Blaze (Pay-as-you-go)

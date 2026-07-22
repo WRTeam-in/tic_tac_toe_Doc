@@ -2,16 +2,28 @@
 sidebar_position: 2
 ---
 
-# How to Change the Application Logo
+# How to Change App Icon
 
-## Android
+Give your app a fresh, branded look by updating the application icon on both Android and iOS.
 
-Open `android/app/src/main/res/mipmap*` and add your logo for each device screen size (`mdpi`, `hdpi`, `xhdpi`, `xxhdpi`, `xxxhdpi`).
+## Guide to Change App Icon
 
-![Change app icon Android](../../static/images/app/changeAppIconinAndroid.png)
+[View App Icon Change Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/appicon/)
 
-## iOS
+### What's Included
 
-Open `ios/Runner/Assets.xcassets/AppIcon.appiconset` and add your logo at each required size.
+- Steps to replace default app icons
+- Asset guidelines and sizing
+- Platform-specific instructions (Android & iOS)
 
-![Change app icon iOS](../../static/images/app/changeAppIconInIOS.png)
+### Rerun These Commands After Renaming
+
+```bash
+flutter clean
+flutter pub get
+```
+
+Once done:
+
+- Your new app icon is live and looking great!
+- You're ready to launch with a professional touch.

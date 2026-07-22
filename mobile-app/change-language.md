@@ -1,34 +1,39 @@
 ---
-sidebar_position: 19
+sidebar_position: 18
 ---
 
 # How to Add/Remove a Language
 
+The list of supported languages is centralized in `lib/core/localization/app_language.dart`:
+
+```dart
+abstract class AppLanguages {
+  static const String defaultLanguageCode = 'en';
+
+  static const List<AppLanguage> supported = [
+    AppLanguage(code: 'en', name: 'English', nativeName: 'English'),
+    AppLanguage(code: 'hi', name: 'Hindi', nativeName: 'हिन्दी'),
+    AppLanguage(code: 'tr', name: 'Turkish', nativeName: 'Türkçe'),
+    AppLanguage(code: 'ar', name: 'Arabic', nativeName: 'العربية'),
+    AppLanguage(code: 'es', name: 'Spanish', nativeName: 'Español'),
+    AppLanguage(code: 'pt', name: 'Portuguese (Brazilian)', nativeName: 'Português (Brasil)'),
+    AppLanguage(code: 'fr', name: 'French', nativeName: 'Français'),
+    AppLanguage(code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia'),
+  ];
+}
+```
+
+![lib/core/localization/app_language.dart — AppLanguages.supported list](../static/images/app/app-language-dart-supported.png)
+
 ## To add a new language
 
-1. Copy one JSON file from the language folder, add it back to the same folder, and rename it to your new language's code.
-2. Open that JSON file and translate every string value into your new language. If any string is missing, the app will throw an error when that language is selected — make sure every JSON file has all the same keys.
+1. Copy `assets/languages/en.json` to a new file named after your language code (e.g. `de.json`), and translate every value. If any key is missing, that string falls back silently rather than throwing — but keep every JSON file's keys in sync to avoid missing translations.
+2. Add a new `AppLanguage(code: ..., name: ..., nativeName: ...)` entry to `AppLanguages.supported` above, using the same code as your JSON filename.
 
-   ![Language JSON file](../static/images/app/lan2.png)
-
-3. Search the whole project for `"en"` (`Ctrl+Shift+F`). Wherever you see a list of language codes, add your new language code there too.
-
-   ![Add language code](../static/images/app/lang1.png)
-
-4. Open `profile.dart`, find the `_getLanguageList()` method, and add your new language's display name to `languageList` as shown below. Use the same key you used in the JSON files on the left, and the human-readable language name on the right.
-
-   ![Add to language list](../static/images/app/lang2.png)
-
-5. If your new language needs RTL layout, add its code to the list at `lib/Helper/string.dart`:
-
-   ```dart
-   List<String> rtlLanguages = ['ar', 'ur'];
-   ```
-
-   ![Add RTL language](../static/images/app/addRTL.png)
+That's it — no other file needs touching. RTL layout (e.g. for Arabic) is handled automatically by Flutter based on the language's `code`, not a separate list.
 
 ## To remove a language
 
-Search the whole project for `"en"` (`Ctrl+Shift+F`). Wherever you see a list of language codes, remove the one you don't want.
+Remove its `AppLanguage(...)` entry from `AppLanguages.supported`, and optionally delete the matching JSON file from `assets/languages/`.
 
-![Remove language code](../static/images/app/lang1.png)
+<!-- TODO: add screenshot — language-selector.png (language selection screen in the app) -->
