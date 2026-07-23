@@ -19,7 +19,6 @@ sidebar_position: 15
 | Guest Login | ✅ |
 | Email Authentication | ✅ |
 | In-App Purchases | ✅ |
-| Remove Ads Purchase | ✅ |
 | AdMob Integration | ✅ |
 | Unity Ads Integration | ✅ |
 | Multi-Language Support | ✅ |

@@ -22,5 +22,5 @@ Every component works together to deliver a seamless player experience — from 
 - **Multiplayer Engine** — Firebase Realtime Database powers online matchmaking and synchronizes gameplay between players in real time.
 - **Gameplay Modes** — Online Multiplayer, Play Against AI, Pass & Play.
 - **Player Progression** — Coin Collection, Leaderboards, Match History, Statistics, Cosmetic Skins.
-- **Monetization** — Google Play In-App Purchases, Apple In-App Purchases, Google AdMob, Unity Ads, permanent Remove Ads purchase.
+- **Monetization** — Google Play In-App Purchases, Apple In-App Purchases, Google AdMob, Unity Ads.
 - **Player Engagement** — Multiple Board Sizes, Mini Games, Multi-language Support, Profile Customization, Share App, Rate App, informational pages.

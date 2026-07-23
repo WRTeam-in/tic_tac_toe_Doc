@@ -26,7 +26,7 @@ Build and publish your own engaging Tic Tac Toe experience without starting from
 | Challenge | Solution |
 |---|---|
 | Building multiplayer games is time-consuming | Launch instantly with Firebase-powered real-time matchmaking |
-| Monetization can be difficult to implement | Built-in In-App Purchases, AdMob, Unity Ads, and a permanent Remove Ads purchase |
+| Monetization can be difficult to implement | Built-in In-App Purchases, AdMob, and Unity Ads |
 | Players lose interest quickly | Keep users engaged with rankings, skins, coins, rewards, and multiple gameplay modes |
 | Developing cross-platform apps doubles the work | One Flutter codebase for both Android and iOS |
 | Backend development increases complexity | Firebase handles authentication, matchmaking, player data, and cloud storage |

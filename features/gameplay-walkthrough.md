@@ -50,9 +50,9 @@ Covers: Start Pass & Play · Choose Board · Player Turns · Match Timer · Winn
 
 **Expand gameplay with coins & premium purchases.**
 
-Players purchase additional coins through Google Play / Apple In-App Purchases to keep competing online, and can permanently remove ads with a one-time purchase.
+Players purchase additional coins through Google Play / Apple In-App Purchases to keep competing online.
 
-Covers: Open Coin Store · Buy Coin Packages · Remove Ads Purchase · Updated Coin Balance
+Covers: Open Coin Store · Buy Coin Packages · Updated Coin Balance
 
 <!-- TODO: replace with real video thumbnail / coin store screenshot -->
 

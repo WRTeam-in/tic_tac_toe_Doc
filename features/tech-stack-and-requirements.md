@@ -58,4 +58,3 @@ Native store payments via Google Play and Apple, giving players a secure, famili
 
 **Available purchases:**
 - **Coin Packages** — virtual coins for competitive online matches and unlocking in-game content.
-- **Remove Ads** — one-time purchase that permanently removes advertisements.

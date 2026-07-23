@@ -6,7 +6,7 @@ sidebar_position: 8
 
 **Start generating revenue from day one.**
 
-<!-- TODO: replace with real coin store / remove-ads purchase screenshot -->
+<!-- TODO: replace with real coin store screenshot -->
 
-- **In-App Purchases** — coin packages via Google Play Store and Apple App Store, plus a permanent Remove Ads purchase.
+- **In-App Purchases** — coin packages via Google Play Store and Apple App Store.
 - **Advertisement Revenue** — Google AdMob and Unity Ads integration.
