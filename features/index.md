@@ -32,7 +32,6 @@ Build and publish your own engaging Tic Tac Toe experience without starting from
 | Backend development increases complexity | Firebase handles authentication, matchmaking, player data, and cloud storage |
 
 <!-- TODO: image-only section in source doc — replace with real "problems solved" graphic -->
-![What this product solves placeholder](../static/images/placeholder.svg)
 
 ## Why Choose This Product
 
@@ -46,7 +45,6 @@ Build and publish your own engaging Tic Tac Toe experience without starting from
 - **Highly Customizable** — rebrand with your own logo, colors, assets, Firebase project, and store listings (see the [installation docs](/mobile-app/)).
 
 <!-- TODO: image-only section in source doc — replace with real "why choose us" graphic -->
-![Why choose this product placeholder](../static/images/placeholder.svg)
 
 ## Explore
 

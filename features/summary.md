@@ -17,7 +17,6 @@ Start with a production-ready Flutter solution instead of building everything fr
 **CTA:** Buy Now
 
 <!-- TODO: image-only section in source doc — replace with real "call to action" graphic -->
-![Call to action placeholder](../static/images/placeholder.svg)
 
 ## Need Help With Installation?
 
@@ -26,7 +25,6 @@ From Firebase configuration to app publishing, the team can help get everything 
 **CTA:** Let's Set It Up
 
 <!-- TODO: image-only section in source doc — replace with real "installation help" graphic -->
-![Need help with installation placeholder](../static/images/placeholder.svg)
 
 ## Feedback
 

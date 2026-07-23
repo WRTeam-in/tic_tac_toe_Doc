@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 18
 ---
 
 # How to Change Skins Icon and Price, or Add More Skins

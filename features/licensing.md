@@ -18,4 +18,3 @@ sidebar_position: 19
 Standard WRTeam license comparison structure.
 
 <!-- TODO: image-only section in source doc — replace with real license comparison graphic -->
-![License comparison placeholder](../static/images/placeholder.svg)

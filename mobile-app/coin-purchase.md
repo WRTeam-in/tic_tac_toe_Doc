@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 17
 ---
 
 # How to Change Coin Purchase Values / Add More Coins to Purchase
@@ -24,7 +24,7 @@ static List<ShopItem> get dummy => const [
 ![lib/data/models/shop_item_model.dart — ShopItem.dummy list](../static/images/app/shop-item-model-dart-dummy.png)
 
 1. **Change coin amounts or fallback prices** — edit the `coins` / `priceUsd` values above. `priceUsd` is only a fallback shown until the real store price loads — the app prefers the live price from Google Play / App Store for each product ID via `flutter_inapp_purchase`.
-2. **Add a new coin pack** — add another `ShopItem(...)` entry here, then create a matching in-app product with the same `id` in both the Play Console and App Store Connect.
+2. **Add a new coin pack** — add another `ShopItem(...)` entry here, then create a matching in-app product with the same `id` in both the Play Console and App Store Connect — see [Register for In-App Purchase](in-app-purchase.md).
 3. **Keep product IDs in sync** — every purchasable `id` must also be listed in `coinProductIds` in `lib/constants/ad_config.dart`:
 
    ```dart

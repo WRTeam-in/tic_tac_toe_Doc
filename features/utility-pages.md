@@ -7,6 +7,5 @@ sidebar_position: 12
 **Everything modern apps need.**
 
 <!-- TODO: replace with real settings / utility pages screenshot -->
-![Utility pages placeholder](../static/images/placeholder.svg)
 
-About Us, Contact Us, Privacy Policy, Terms & Conditions, How to Play, Share App, Rate App, Logout, and Delete Account — all included.
+About Us, Contact Us, Privacy Policy, Terms & Conditions, How to Play, Share App, Rate App, Sound On/Off, Logout, and Delete Account — all included.

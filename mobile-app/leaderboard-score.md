@@ -1,5 +1,5 @@
 ---
-sidebar_position: 15
+sidebar_position: 16
 ---
 
 # How to Change Leaderboard Score Calculation Values

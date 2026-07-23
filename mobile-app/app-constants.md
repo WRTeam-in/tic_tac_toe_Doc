@@ -1,5 +1,5 @@
 ---
-sidebar_position: 19
+sidebar_position: 20
 ---
 
 # How to Change Application Constants
@@ -77,6 +77,7 @@ static final Skin defaultSkin = skins.first;
 - Skins list and pricing — see [Skins](skins.md).
 - Coin shop packs — see [Coin Purchase](coin-purchase.md).
 - Bonus mini games (Hextris, Clumsy Bird, Pacman) — `AppSettings.moreGames`, same file.
+- Background music / sound effects — see [Change Music](change-music.md).
 
 ## Privacy Policy / Terms & Conditions / About / Contact copy
 
