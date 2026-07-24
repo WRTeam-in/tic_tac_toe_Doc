@@ -1,4 +1,4 @@
-    # 📘 Documentation Setup Guide
+# 📘 Documentation Setup Guide
 
 Follow these simple steps to set up and run this documentation locally on your machine.
 
