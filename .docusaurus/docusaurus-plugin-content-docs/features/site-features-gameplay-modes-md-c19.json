@@ -1,0 +1,26 @@
+{
+  "id": "gameplay-modes",
+  "title": "Three Ways to Play",
+  "description": "One game. Three completely different experiences.",
+  "source": "@site/features/gameplay-modes.md",
+  "sourceDirName": ".",
+  "slug": "/gameplay-modes",
+  "permalink": "/tic-tac-toe-doc/features/gameplay-modes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Real-Time Online Multiplayer",
+    "permalink": "/tic-tac-toe-doc/features/online-multiplayer"
+  },
+  "next": {
+    "title": "Beyond the Classic 3×3 Board",
+    "permalink": "/tic-tac-toe-doc/features/board-sizes"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "index",
+  "title": "Mobile Application",
+  "description": "Thank you for purchasing Tic Tac Toe. We appreciate your support. In this documentation, you will find instructions on how to set up the mobile application for Tic Tac Toe.",
+  "source": "@site/mobile-app/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/tic-tac-toe-doc/mobile-app/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "mobileAppSidebar",
+  "next": {
+    "title": "App Prerequisites",
+    "permalink": "/tic-tac-toe-doc/mobile-app/prerequisites"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "index",
+  "title": "Support",
+  "description": "How Can We Help You?",
+  "source": "@site/support/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/tic-tac-toe-doc/support/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,14 @@
+{
+  "id": "index",
+  "title": "Frequently Asked Questions (FAQs)",
+  "description": "Popular questions about Tic Tac Toe to help you get started!",
+  "source": "@site/faqs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/tic-tac-toe-doc/faqs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

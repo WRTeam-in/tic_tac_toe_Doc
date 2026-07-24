@@ -1,0 +1,26 @@
+{
+  "id": "board-sizes",
+  "title": "Beyond the Classic 3×3 Board",
+  "description": "Choose the challenge that fits your style.",
+  "source": "@site/features/board-sizes.md",
+  "sourceDirName": ".",
+  "slug": "/board-sizes",
+  "permalink": "/tic-tac-toe-doc/features/board-sizes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Three Ways to Play",
+    "permalink": "/tic-tac-toe-doc/features/gameplay-modes"
+  },
+  "next": {
+    "title": "Competitive Coin Economy",
+    "permalink": "/tic-tac-toe-doc/features/coin-economy"
+  }
+}

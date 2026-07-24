@@ -1,0 +1,26 @@
+{
+  "id": "app-branding/change-app-name",
+  "title": "How to Change the Application Name",
+  "description": "Go to lib/constants/settings.dart and change the appName value.",
+  "source": "@site/mobile-app/app-branding/change-app-name.md",
+  "sourceDirName": "app-branding",
+  "slug": "/app-branding/change-app-name",
+  "permalink": "/tic-tac-toe-doc/mobile-app/app-branding/change-app-name",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "mobileAppSidebar",
+  "previous": {
+    "title": "App Prerequisites",
+    "permalink": "/tic-tac-toe-doc/mobile-app/prerequisites"
+  },
+  "next": {
+    "title": "How to Change App Icon",
+    "permalink": "/tic-tac-toe-doc/mobile-app/app-branding/change-app-logo"
+  }
+}

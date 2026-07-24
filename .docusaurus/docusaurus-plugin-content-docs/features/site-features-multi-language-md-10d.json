@@ -1,0 +1,26 @@
+{
+  "id": "multi-language",
+  "title": "Built for a Global Audience",
+  "description": "Reach players everywhere.",
+  "source": "@site/features/multi-language.md",
+  "sourceDirName": ".",
+  "slug": "/multi-language",
+  "permalink": "/tic-tac-toe-doc/features/multi-language",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Simple & Secure Authentication",
+    "permalink": "/tic-tac-toe-doc/features/authentication"
+  },
+  "next": {
+    "title": "More Than Just Tic Tac Toe",
+    "permalink": "/tic-tac-toe-doc/features/mini-games"
+  }
+}

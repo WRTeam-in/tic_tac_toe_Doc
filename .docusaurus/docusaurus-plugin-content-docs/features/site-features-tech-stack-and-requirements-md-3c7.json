@@ -1,0 +1,26 @@
+{
+  "id": "tech-stack-and-requirements",
+  "title": "Tech Stack & Requirements",
+  "description": "Built With",
+  "source": "@site/features/tech-stack-and-requirements.md",
+  "sourceDirName": ".",
+  "slug": "/tech-stack-and-requirements",
+  "permalink": "/tic-tac-toe-doc/features/tech-stack-and-requirements",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Gameplay Modes & Product Walkthrough",
+    "permalink": "/tic-tac-toe-doc/features/gameplay-walkthrough"
+  },
+  "next": {
+    "title": "What's Included",
+    "permalink": "/tic-tac-toe-doc/features/whats-included"
+  }
+}

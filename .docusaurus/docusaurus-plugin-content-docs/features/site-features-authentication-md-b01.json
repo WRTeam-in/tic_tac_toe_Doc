@@ -1,0 +1,26 @@
+{
+  "id": "authentication",
+  "title": "Simple & Secure Authentication",
+  "description": "Quick login, less waiting.",
+  "source": "@site/features/authentication.md",
+  "sourceDirName": ".",
+  "slug": "/authentication",
+  "permalink": "/tic-tac-toe-doc/features/authentication",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Built-in Monetization",
+    "permalink": "/tic-tac-toe-doc/features/monetization"
+  },
+  "next": {
+    "title": "Built for a Global Audience",
+    "permalink": "/tic-tac-toe-doc/features/multi-language"
+  }
+}

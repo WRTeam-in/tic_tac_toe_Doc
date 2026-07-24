@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktic_tac_toe_documentation=globalThis.webpackChunktic_tac_toe_documentation||[]).push([[1235],{8552(t){t.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

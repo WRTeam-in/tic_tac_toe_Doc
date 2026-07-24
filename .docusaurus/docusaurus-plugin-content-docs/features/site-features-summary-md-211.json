@@ -1,0 +1,22 @@
+{
+  "id": "summary",
+  "title": "Summary",
+  "description": "A Complete Multiplayer Game Solution",
+  "source": "@site/features/summary.md",
+  "sourceDirName": ".",
+  "slug": "/summary",
+  "permalink": "/tic-tac-toe-doc/features/summary",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Licensing — Regular vs Extended",
+    "permalink": "/tic-tac-toe-doc/features/licensing"
+  }
+}

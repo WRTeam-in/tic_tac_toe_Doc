@@ -1,0 +1,26 @@
+{
+  "id": "app-constants",
+  "title": "How to Change Application Constants",
+  "description": "Most tunable app-wide values live in lib/constants/settings.dart, in the AppSettings class.",
+  "source": "@site/mobile-app/app-constants.md",
+  "sourceDirName": ".",
+  "slug": "/app-constants",
+  "permalink": "/tic-tac-toe-doc/mobile-app/app-constants",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20
+  },
+  "sidebar": "mobileAppSidebar",
+  "previous": {
+    "title": "How to Add/Remove a Language",
+    "permalink": "/tic-tac-toe-doc/mobile-app/change-language"
+  },
+  "next": {
+    "title": "How to Register for In-App Purchase",
+    "permalink": "/tic-tac-toe-doc/mobile-app/in-app-purchase"
+  }
+}

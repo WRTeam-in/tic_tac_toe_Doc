@@ -1,0 +1,26 @@
+{
+  "id": "tech-architecture",
+  "title": "Flutter + Firebase Architecture",
+  "description": "Modern technology, minimal maintenance.",
+  "source": "@site/features/tech-architecture.md",
+  "sourceDirName": ".",
+  "slug": "/tech-architecture",
+  "permalink": "/tic-tac-toe-doc/features/tech-architecture",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Production-Ready Utility Pages",
+    "permalink": "/tic-tac-toe-doc/features/utility-pages"
+  },
+  "next": {
+    "title": "Perfect For",
+    "permalink": "/tic-tac-toe-doc/features/perfect-for"
+  }
+}

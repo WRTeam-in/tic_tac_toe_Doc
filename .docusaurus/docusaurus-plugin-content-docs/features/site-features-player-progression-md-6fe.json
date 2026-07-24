@@ -1,0 +1,26 @@
+{
+  "id": "player-progression",
+  "title": "Player Progression That Keeps Users Coming Back",
+  "description": "Give players a reason to keep playing.",
+  "source": "@site/features/player-progression.md",
+  "sourceDirName": ".",
+  "slug": "/player-progression",
+  "permalink": "/tic-tac-toe-doc/features/player-progression",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "featuresSidebar",
+  "previous": {
+    "title": "Competitive Coin Economy",
+    "permalink": "/tic-tac-toe-doc/features/coin-economy"
+  },
+  "next": {
+    "title": "Personalize Every Player",
+    "permalink": "/tic-tac-toe-doc/features/player-customization"
+  }
+}

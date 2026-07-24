@@ -1,0 +1,326 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "mobile-app": {
+      "path": "/tic-tac-toe-doc/mobile-app",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tic-tac-toe-doc/mobile-app",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "app-branding/change-app-colors",
+              "path": "/tic-tac-toe-doc/mobile-app/app-branding/change-app-colors",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "app-branding/change-app-logo",
+              "path": "/tic-tac-toe-doc/mobile-app/app-branding/change-app-logo",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "app-branding/change-app-name",
+              "path": "/tic-tac-toe-doc/mobile-app/app-branding/change-app-name",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "app-branding/change-app-version",
+              "path": "/tic-tac-toe-doc/mobile-app/app-branding/change-app-version",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "app-branding/change-font",
+              "path": "/tic-tac-toe-doc/mobile-app/app-branding/change-font",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "app-branding/change-package-name",
+              "path": "/tic-tac-toe-doc/mobile-app/app-branding/change-package-name",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "app-constants",
+              "path": "/tic-tac-toe-doc/mobile-app/app-constants",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "change-ad-ids",
+              "path": "/tic-tac-toe-doc/mobile-app/change-ad-ids",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "change-guest-profile-icon",
+              "path": "/tic-tac-toe-doc/mobile-app/change-guest-profile-icon",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "change-language",
+              "path": "/tic-tac-toe-doc/mobile-app/change-language",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "change-music",
+              "path": "/tic-tac-toe-doc/mobile-app/change-music",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "coin-purchase",
+              "path": "/tic-tac-toe-doc/mobile-app/coin-purchase",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "deployment",
+              "path": "/tic-tac-toe-doc/mobile-app/deployment",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "firebase-database",
+              "path": "/tic-tac-toe-doc/mobile-app/firebase-database",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "firebase-storage",
+              "path": "/tic-tac-toe-doc/mobile-app/firebase-storage",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "in-app-purchase",
+              "path": "/tic-tac-toe-doc/mobile-app/in-app-purchase",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/tic-tac-toe-doc/mobile-app/",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "integrate-firebase",
+              "path": "/tic-tac-toe-doc/mobile-app/integrate-firebase",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "leaderboard-score",
+              "path": "/tic-tac-toe-doc/mobile-app/leaderboard-score",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "prerequisites",
+              "path": "/tic-tac-toe-doc/mobile-app/prerequisites",
+              "sidebar": "mobileAppSidebar"
+            },
+            {
+              "id": "skins",
+              "path": "/tic-tac-toe-doc/mobile-app/skins",
+              "sidebar": "mobileAppSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "mobileAppSidebar": {
+              "link": {
+                "path": "/tic-tac-toe-doc/mobile-app/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "features": {
+      "path": "/tic-tac-toe-doc/features",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tic-tac-toe-doc/features",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "authentication",
+              "path": "/tic-tac-toe-doc/features/authentication",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "board-sizes",
+              "path": "/tic-tac-toe-doc/features/board-sizes",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "coin-economy",
+              "path": "/tic-tac-toe-doc/features/coin-economy",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "feature-checklist",
+              "path": "/tic-tac-toe-doc/features/feature-checklist",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "gameplay-modes",
+              "path": "/tic-tac-toe-doc/features/gameplay-modes",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "gameplay-walkthrough",
+              "path": "/tic-tac-toe-doc/features/gameplay-walkthrough",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/tic-tac-toe-doc/features/",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "licensing",
+              "path": "/tic-tac-toe-doc/features/licensing",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "mini-games",
+              "path": "/tic-tac-toe-doc/features/mini-games",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "monetization",
+              "path": "/tic-tac-toe-doc/features/monetization",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "multi-language",
+              "path": "/tic-tac-toe-doc/features/multi-language",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "online-multiplayer",
+              "path": "/tic-tac-toe-doc/features/online-multiplayer",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "perfect-for",
+              "path": "/tic-tac-toe-doc/features/perfect-for",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "player-customization",
+              "path": "/tic-tac-toe-doc/features/player-customization",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "player-progression",
+              "path": "/tic-tac-toe-doc/features/player-progression",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "summary",
+              "path": "/tic-tac-toe-doc/features/summary",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "tech-architecture",
+              "path": "/tic-tac-toe-doc/features/tech-architecture",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "tech-stack-and-requirements",
+              "path": "/tic-tac-toe-doc/features/tech-stack-and-requirements",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "utility-pages",
+              "path": "/tic-tac-toe-doc/features/utility-pages",
+              "sidebar": "featuresSidebar"
+            },
+            {
+              "id": "whats-included",
+              "path": "/tic-tac-toe-doc/features/whats-included",
+              "sidebar": "featuresSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "featuresSidebar": {
+              "link": {
+                "path": "/tic-tac-toe-doc/features/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "support": {
+      "path": "/tic-tac-toe-doc/support",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tic-tac-toe-doc/support",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/tic-tac-toe-doc/support/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {}
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "faqs": {
+      "path": "/tic-tac-toe-doc/faqs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tic-tac-toe-doc/faqs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/tic-tac-toe-doc/faqs/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {}
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "changelog": {
+      "path": "/tic-tac-toe-doc/changelog",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tic-tac-toe-doc/changelog",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/tic-tac-toe-doc/changelog/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {}
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
