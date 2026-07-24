@@ -75,3 +75,4 @@ http://localhost:3000
 - `features/` — product feature reference
 - `support/`, `faqs/`, `changelog/` — single-page sections
 - `static/images/` — all documentation images
+
