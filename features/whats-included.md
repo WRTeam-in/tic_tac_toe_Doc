@@ -4,7 +4,7 @@ sidebar_position: 18
 
 # What's Included
 
-## What You'll Get
+## What You'll Getw
 
 Your purchase includes all the essential resources required to customize, build, and publish your own branded version of the application.
 
