@@ -16,7 +16,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://wrteam-in.github.io', // TODO: update to your GitHub Pages URL
-  baseUrl: '/tic-tac-toe-doc/', // TODO: update to your repository name, preceded by a slash
+  baseUrl: '/tic_tac_toe_Doc/', // TODO: update to your repository name, preceded by a slash
   organizationName: 'WRTeam-in', // TODO: your GitHub username/org
   projectName: 'tic-tac-toe-doc', // TODO: your repository name
   trailingSlash: true,
