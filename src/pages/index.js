@@ -1,3 +1,4 @@
+import React, { useEffect, useRef } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -6,10 +7,114 @@ import styles from "./index.module.css";
 import logo from "../../static/images/logo/logo.png";
 import DocBanner from "../components/DocBanner/DocBanner";
 
+// Cursor-trail icon paths: 0 = X, 1 = O, 2 = grid (3x3 board)
+const getIconPath = (idx) => {
+  switch (idx) {
+    case 0: // X
+      return "M5 5L19 19M19 5L5 19";
+    case 1: // O
+      return "M12 19a7 7 0 100-14 7 7 0 000 14z";
+    case 2: // 3x3 grid
+      return "M4 9H20M4 15H20M9 4V20M15 4V20";
+    default:
+      return "";
+  }
+};
+
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const headerRef = useRef(null);
+  const lastMousePos = useRef({ x: 0, y: 0 });
+  const velocity = useRef({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+
+    const createIcon = (x, y, velocityX = 0, velocityY = 0) => {
+      const el = document.createElement("div");
+      el.className = styles.cursorIcon;
+      const randomIcon = Math.floor(Math.random() * 3); // 0: X, 1: O, 2: grid
+      const size = Math.random() * 6 + 14; // Random size between 14-20px
+
+      el.innerHTML = `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="${getIconPath(randomIcon)}" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+      </svg>`;
+
+      // Calculate position with velocity influence
+      const angle = Math.random() * Math.PI * 2;
+      const distance = Math.random() * 20 + 5; // Closer to cursor (5-25px)
+      const offsetX = Math.cos(angle) * distance;
+      const offsetY = Math.sin(angle) * distance;
+
+      el.style.left = `${x + offsetX}px`;
+      el.style.top = `${y + offsetY}px`;
+      el.style.position = "fixed";
+      el.style.pointerEvents = "none";
+      el.style.color = "rgba(255, 255, 255, 0.85)";
+      el.style.transform = "scale(0) rotate(0deg)";
+      el.style.transition = "all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)";
+      el.style.filter = "blur(0px)";
+      el.style.opacity = "0";
+
+      document.body.appendChild(el);
+
+      // Calculate random rotation and movement
+      const rotation = (Math.random() - 0.5) * 180;
+      const moveX = (Math.random() - 0.5) * 60 + velocityX;
+      const moveY = -Math.random() * 60 - 30 + velocityY;
+
+      // Trigger animation
+      requestAnimationFrame(() => {
+        el.style.transform = `scale(1) rotate(${rotation}deg) translate(${moveX}px, ${moveY}px)`;
+        el.style.opacity = "1";
+        el.style.filter = "blur(0.5px)";
+      });
+
+      // Remove after animation
+      setTimeout(() => {
+        el.remove();
+      }, 800);
+    };
+
+    const handleMouseMove = (e) => {
+      const currentX = e.clientX;
+      const currentY = e.clientY;
+      velocity.current = {
+        x: currentX - lastMousePos.current.x,
+        y: currentY - lastMousePos.current.y,
+      };
+      lastMousePos.current = { x: currentX, y: currentY };
+
+      const speed = Math.sqrt(velocity.current.x ** 2 + velocity.current.y ** 2);
+      const numIcons = Math.min(Math.floor(speed / 8), 3);
+
+      for (let i = 0; i < numIcons; i++) {
+        setTimeout(() => {
+          createIcon(currentX, currentY, velocity.current.x, velocity.current.y);
+        }, i * 40);
+      }
+    };
+
+    const handleMouseEnter = (e) => {
+      for (let i = 0; i < 8; i++) {
+        setTimeout(() => {
+          createIcon(e.clientX, e.clientY);
+        }, i * 40);
+      }
+    };
+
+    header.addEventListener("mousemove", handleMouseMove);
+    header.addEventListener("mouseenter", handleMouseEnter);
+
+    return () => {
+      header.removeEventListener("mousemove", handleMouseMove);
+      header.removeEventListener("mouseenter", handleMouseEnter);
+    };
+  }, []);
+
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header ref={headerRef} className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <div className={styles.logoContainer}>
           <img

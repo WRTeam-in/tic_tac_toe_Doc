@@ -5,7 +5,7 @@ sidebar_position: 2
 # App Prerequisites
 
 :::info
-Whenever you seek support for WRTeam products via Skype or WhatsApp, please share your **Purchase Code** and **Codecanyon username**. This information is required for verification in our system. Without it, we are unable to provide support in accordance with Codecanyon policy.
+Whenever you seek support for WRTeam products via Microsoft Teams or WhatsApp, please share your **Purchase Code** and **Codecanyon username**. This information is required for verification in our system. Without it, we are unable to provide support in accordance with Codecanyon policy.
 :::
 
 ## 🚀 Setup Essentials

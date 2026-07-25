@@ -4,8 +4,8 @@
 /* CSS Variables for colors and fonts */
 
 .bannerContainer {
-  /* Fixed brand orange — this card is always a white card (light or dark mode),
-     so its accent color must not follow --ifm-color-primary, which flips per theme. */
+  /* Fixed brand orange — accent color must not follow --ifm-color-primary,
+     which flips per theme. Card fill itself does follow the theme (see below). */
   --primary-color: #f0842a;
   --text-gray: #808693;
   --bg-white: #FFFFFF;
@@ -24,6 +24,10 @@
   margin: auto;
   margin-top: 4rem ;
   box-sizing: border-box;
+}
+
+:global([data-theme='dark']) .bannerContainer {
+  --bg-white: var(--brand-surface, #242424);
 }
 
 .bannerImageWrapper {
@@ -66,21 +70,14 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  /* Darker than --primary-color: white text on the raw brand orange is too low-contrast */
-  background-color: #b46320;
-  color: #fff;
-  text-decoration: none;
+  background-color: var(--primary-color);
+  color: #fff !important;
+  text-decoration: none !important;
   font-weight: 700;
   padding: 18px;
   border-radius: 18px;
-  transition: opacity 0.2s ease;
   font-size: 1rem;
   font-family: var(--font-family);
-}
-
-.btnPrimary:hover {
-    color: white !important;
-    text-decoration: none !important;
 }
 
 /* Responsive Design */

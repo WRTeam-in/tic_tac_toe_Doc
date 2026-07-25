@@ -5,17 +5,18 @@
  */
 
 :root {
-  /* AppColors.primaryColor */
-  --ifm-color-primary: #00a0ff;
-  --ifm-color-primary-dark: #0088d9;
-  --ifm-color-primary-darker: #0073b8;
-  --ifm-color-primary-darkest: #005d94;
-  --ifm-color-primary-light: #2eb1ff;
-  --ifm-color-primary-lighter: #52beff;
-  --ifm-color-primary-lightest: #8cd4ff;
+  /* AppColors.secondaryColor (exact app orange, 0xFFF0842A) as primary theme color */
+  --ifm-color-primary: #f0842a;
+  --ifm-color-primary-dark: #d86a0f;
+  --ifm-color-primary-darker: #c05f0e;
+  --ifm-color-primary-darkest: #a8530c;
+  --ifm-color-primary-light: #f3a05a;
+  --ifm-color-primary-lighter: #f5ad71;
+  --ifm-color-primary-lightest: #f7bb89;
 
   /* AppColors.secondaryColor / tertiaryColor / surfaceColor */
   --brand-orange: #f0842a;
+  --brand-blue: #00a0ff;
   --brand-teal: #00a8ca;
   --brand-surface: #242424;
 
@@ -24,16 +25,17 @@
 }
 
 [data-theme='dark'] {
-  /* Same brand blue reads fine on dark surfaces — no need to invert to white */
-  --ifm-color-primary: #2eb1ff;
-  --ifm-color-primary-dark: #00a0ff;
-  --ifm-color-primary-darker: #0088d9;
-  --ifm-color-primary-darkest: #0073b8;
-  --ifm-color-primary-light: #52beff;
-  --ifm-color-primary-lighter: #8cd4ff;
-  --ifm-color-primary-lightest: #c3e8ff;
+  /* Same exact app orange — app itself is dark-surfaced (0xff242424), reads fine as-is */
+  --ifm-color-primary: #f0842a;
+  --ifm-color-primary-dark: #d86a0f;
+  --ifm-color-primary-darker: #c05f0e;
+  --ifm-color-primary-darkest: #a8530c;
+  --ifm-color-primary-light: #f3a05a;
+  --ifm-color-primary-lighter: #f5ad71;
+  --ifm-color-primary-lightest: #f7bb89;
 
-  --brand-orange: #ff9c4d;
+  --brand-orange: #f0842a;
+  --brand-blue: #2eb1ff;
   --brand-teal: #2ec3e0;
   --brand-surface: #242424;
 
@@ -49,6 +51,40 @@
 }
 
 .markdown a:hover {
+  color: var(--brand-blue);
+}
+
+/* All buttons: orange fill, white text, matching app brand */
+.button--primary,
+.button--secondary,
+.button--outline.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.button--primary:hover,
+.button--secondary:hover,
+.button--outline.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  color: #fff;
+}
+
+/* Hero sits on the same orange background — give its button a white border so it stays visible */
+.hero--primary .button {
+  border: 2px solid #fff;
+}
+
+/* Hero's secondary button was inheriting the orange fill above, blending into the
+   orange hero background. Give it a white fill instead so it stands out. */
+.hero--primary .button--secondary {
+  background-color: #fff;
+  color: var(--ifm-color-primary);
+}
+
+.hero--primary .button--secondary:hover {
+  background-color: var(--ifm-color-primary-lightest);
   color: var(--ifm-color-primary);
 }
 

@@ -10,7 +10,7 @@ At WRTeam, we're committed to providing exceptional support for all our users. W
 |----------------|---------|
 | **Support Email** | [support@wrteam.in](mailto:support@wrteam.in) |
 | **Head of Customer Support** | Jignesh Majethiya |
-| **Skype** | [Jignesh Majethiya](https://join.skype.com/invite/wpO6RYDhElUY) |
+| **Microsoft Teams** | [Jignesh Majethiya](https://teams.live.com/l/invite/FEAqqaaRsx9bFVxLgE) |
 
 ## Support Hours
 
