@@ -9,8 +9,10 @@ title: Changelog
 
 *(Updated on 25-Jul-2026)*
 
+
+- **[Redesigned]** Brand new UI/UX across the entire app — refreshed screens, smoother navigation, and a cleaner, more modern look and feel throughout
 - **[Updated]** Code compatible with the latest Flutter version
-- **[Redesigned]** Brand new UI/UX across the app for a cleaner, more modern look and feel
+- **[Updated]** Major underlying code changes to support the new UI redesign
 
 ## Version 1.1.3
 
