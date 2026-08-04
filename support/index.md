@@ -9,7 +9,7 @@ At WRTeam, we're committed to providing exceptional support for all our users. W
 | Contact Method | Details |
 |----------------|---------|
 | **Support Email** | [support@wrteam.in](mailto:support@wrteam.in) |
-| **Microsoft Teams** | [Jignesh Majethiya](https://teams.live.com/l/invite/FEAqqaaRsx9bFVxLgE) |
+| **Microsoft Teams** | [Aayush Thacker](https://teams.live.com/l/invite/FEA5ptRxRWxD6n52AI) |
 
 ## Support Hours
 
