@@ -10,7 +10,7 @@ Whenever you seek support for WRTeam products via Microsoft Teams or WhatsApp, p
 
 ## 🚀 Setup Essentials
 
-Follow the [Flutter Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/basicsetup/) to configure your environment (Flutter SDK, Java JDK, IDE) before opening the project.
+Follow the [Flutter Setup Guide](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/basicsetup/) to configure your environment (Flutter SDK, Java JDK, IDE) before opening the project.
 
 ## 🧰 Required Software
 

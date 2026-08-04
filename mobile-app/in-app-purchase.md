@@ -6,7 +6,7 @@ sidebar_position: 21
 
 This app uses the `flutter_inapp_purchase` package. Every product ID you create below must exactly match an entry in `AdConfig.coinProductIds` (`lib/constants/ad_config.dart`) and the `ShopItem.dummy` catalogue (`lib/data/models/shop_item_model.dart`) — see [Coin Purchase](coin-purchase.md).
 
-Coin packs are **consumable** IAP (can be purchased repeatedly). For the full walkthrough — App Store agreements/banking, Play Console payments profile, licensed testers, and troubleshooting — see the [IAP Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/iap/).
+Coin packs are **consumable** IAP (can be purchased repeatedly). For the full walkthrough — App Store agreements/banking, Play Console payments profile, licensed testers, and troubleshooting — see the [IAP Setup Guide](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/iap/).
 
 ## To create an in-app product (Android / Google Play)
 

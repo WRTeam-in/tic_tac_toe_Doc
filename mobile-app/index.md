@@ -19,7 +19,7 @@ import DocBanner from '@site/src/components/DocBanner/DocBanner';
 
 This documentation provides comprehensive instructions for setting up and customizing the Tic Tac Toe mobile application. You'll find detailed guides for:
 
-- Setting up the Flutter development environment (see the [Flutter Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/basicsetup/))
+- Setting up the Flutter development environment (see the [Flutter Setup Guide](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/basicsetup/))
 - Customizing app appearance and branding
 - Integrating with Firebase (Authentication, Realtime Database, Storage)
 - Configuring ads, monetization, and in-app purchases

@@ -10,7 +10,7 @@ You must use the same Firebase project for the app, web, and panels to ensure se
 
 ## 📘 Firebase Setup Guide
 
-[View Firebase Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/firebase/)
+[View Firebase Setup Guide](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/firebase/)
 
 ### 🔧 What's Covered
 
